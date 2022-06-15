@@ -21,8 +21,8 @@ h1, #main {
   font-family: handjet;
   font-size: 10vw;
   font-variation-settings: 
-  'wght' 100,
-  'ESHP' 2,
+  'wght' 600,
+  'ESHP' 5,
   'EGRD' 1.0;
 }
 
@@ -53,15 +53,16 @@ h1, #main {
   margin-left: 1rem;
   margin-right: 5rem;
   flex-wrap: flex;
-  /* position:fixed; */
+  position:fixed;
   bottom: 10px;
 }
 
 #gallery {
-  display:grid;
+  display: grid;
   grid-auto-flow: dense;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
+  /* grid-template-columns: auto auto auto; */
+  grid-template: auto;
+  gap: 50px;
   margin: 20px;
   margin-top: 100px;
   overflow: hidden;
