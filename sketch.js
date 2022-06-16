@@ -6,7 +6,7 @@ db.collection("images").get().then((querySnapshot) => {
 
       const image = document.createElement('img');
 image.setAttribute('src', doc.data().image);
-image.setAttribute('width', 100 + '%');
+image.setAttribute('width', 90 + '%');
 document.getElementById('gallery').appendChild(image);
   });
 });
